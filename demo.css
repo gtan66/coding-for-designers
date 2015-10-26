@@ -1,0 +1,115 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial;
+  font-size: 10pt;
+}
+
+#body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+}
+
+#header {
+  flex: 1;
+}
+
+#title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#title .header {
+  font-size: 10pt;
+  letter-spacing: 2.5px;
+  letter-spacing: 2.5px;
+  padding-bottom: 10px;
+}
+
+#title .subheader {
+  font-size: 6pt;
+}
+
+#main-post {
+  flex: 3;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #ececec;
+}
+
+#main-post-title {
+  height: 100px;
+  padding-left: 80px;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#posts {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  padding: 30px 50px;
+}
+
+.post {
+  border-top: 5px solid #4E92DF;
+  width: 100%;
+}
+
+.post-header {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #4E92DF;
+  padding: 15px 0px;
+
+}
+
+#footer {
+  flex: 1;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 6pt;
+}
+
+#footer div {
+  flex: 1;
+  align-content: center;
+}
+
+#social-media-icons {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  padding: 0px 50px;
+  border-bottom: 1px solid grey;
+}
+
+.icons {
+  flex: 1;
+  font-size: 8pt;
+  text-align: center;
+}
+
+#footer-message {
+  padding-top: 10px;
+}
